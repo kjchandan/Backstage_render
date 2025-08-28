@@ -7,7 +7,8 @@
   },
   "scripts": {
     "start": "backstage-cli repo start",
-    "start:prod": "yarn build && yarn backstage-cli backend:prod --config app-config.yaml --config app-config.production.yaml",
+    "start:prod": "yarn build:all && yarn backstage-cli backend:prod --config app-config.yaml --config app-config.production.yaml",
+    "build": "backstage-cli repo build",
     "build:backend": "yarn workspace backend build",
     "build:all": "backstage-cli repo build --all",
     "build-image": "yarn workspace backend build-image",
