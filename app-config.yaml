@@ -1,6 +1,6 @@
 app:
   title: Scaffolded Backstage App
-  baseUrl: https://backstage-render-1.onrender.com
+  baseUrl: https://backstage-render.onrender.com
 organization:
   name: My Company
 
@@ -11,7 +11,7 @@ backend:
   # auth:
   #   keys:
   #     - secret: ${BACKEND_SECRET}
-  baseUrl: https://backstage-render-1.onrender.com
+  baseUrl: https://backstage-render.onrender.com
   listen:
     port: ${PORT}
     # Uncomment the following host directive to bind to specific interfaces
